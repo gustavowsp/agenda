@@ -1,0 +1,68 @@
+body{
+  background-color: #2D3250 !important;
+}
+
+/*FORMATANDO A BARRA DE NAVEGAÇÃO*/
+#brand /*Formatando o logo*/
+{
+  font-weight: bold;
+  font-size: 1.6em !important;
+}
+
+#navbarNav /*Menu da navbar*/
+{
+  font-size: 0.9em;
+}
+
+
+
+
+
+#waves{
+  z-index: -1;
+  width: 100%;
+  position: fixed;
+  bottom: -15px;
+}
+#waves img{
+  position: absolute;
+  bottom: -100px;
+  opacity: 0.4;
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #convite /*Formatando o link 'convite'*/
+  {
+    margin-left: 25px;
+  }
+  #navbarNav a:hover{
+    border-bottom: 2px solid #F8B179;
+  }
+  #navbarNav a{
+    padding: 1px 10px;
+    margin: 0px 5px;
+  
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
